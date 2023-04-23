@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>New Ticket</title>
+  </head>
+
+  <body
+    style="font-family: arial, sans-serif"
+    style="background-color: #e6e6fa"
+  >
+    <br />
+    <h3>Create Ticket</h3>
+
+    <!-- <form action="/createTicket" method="POST">
+      id: <input type="number" name="id" id="id" /><br />
+      type: <input type="text" name="type" id="type" /><br />
+      subject: <input type="text" name="subject" id="subject" /><br />
+      description:
+      <input type="text" name="description" id="description" /><br />
+      priority: <input type="text" name="priority" id="priority" /><br />
+      status: <input type="text" name="status" id="status" /><br />
+      <input type="submit" name="submit" value="Create" />
+    </form> -->
+
+    <form action="./rest/maketicket" method="POST">
+      <label for="id">ID:</label>
+      <input type="number" id="id" name="id" required /><br />
+      <label for="created_at">created_at:</label>
+      <input
+        type="text"
+        id="created_at"
+        name="created_at"
+        value="already calculated"
+      /><br />
+      <label for="updated_at">updated_at:</label>
+      <input
+        type="text"
+        id="updated_at"
+        name="updated_at"
+        value="already calculated"
+      /><br />
+      <label for="type">type:</label>
+      <input type="text" id="type" name="type" /><br />
+      <label for="subject">subject:</label>
+      <input type="text" id="subject" name="subject" /><br />
+      <label for="description">description:</label>
+      <input type="text" id="description" name="description" /><br />
+      <label for="priority">priority:</label>
+      <input type="text" id="priority" name="priority" /><br />
+      <label for="status">status:</label>
+      <input type="text" id="status" name="status" /><br />
+      <label for="recipient">recipient:</label>
+      <input type="text" id="recipient" name="recipient" /><br />
+      <label for="submitter">submitter:</label>
+      <input type="text" id="submitter" name="submitter" /><br />
+      <label for="assignee_id">assignee_id:</label>
+      <input type="text" id="assignee_id" name="assignee_id" /><br />
+      <label for="follower_ids">follower_ids:</label>
+      <input type="text" id="follower_ids" name="follower_ids" /><br />
+      <input type="submit" name="submit" value="Make ticket" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "cmps415-phase2",
+  "description": "phase 2 of cmps415 project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "dev": "nodemon index.js",
+    "super": "nodemon test.js",
+    "duper": "nodemon super.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Kwentin-Ransom/cmps415-phaseII.git"
+  },
+  "keywords": [
+    "phase2"
+  ],
+  "author": "Kwentin Ransom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kwentin-Ransom/cmps415-phaseII/issues"
+  },
+  "homepage": "https://github.com/Kwentin-Ransom/cmps415-phaseII#readme"
+}
