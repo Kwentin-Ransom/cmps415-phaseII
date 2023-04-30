@@ -9,6 +9,9 @@
   "devDependencies": {
     "nodemon": "^2.0.22"
   },
+  "engines": {
+    "node": ">=14"
+  },
   "name": "cmps415-phase2",
   "description": "phase 2 of cmps415 project",
   "version": "1.0.0",
